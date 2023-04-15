@@ -6,7 +6,8 @@
 trigger:
 - main
 
-pool: rhel-vm
+pool:
+  vmImage: ubuntu-latest
 
 steps:
 - task: Maven@3
