@@ -6,7 +6,7 @@
 trigger:
 - main
 
-pool: rhel-vm
+pool: ubuntu-apps
  
 steps:
 - task: Maven@3
